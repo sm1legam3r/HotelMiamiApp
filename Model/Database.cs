@@ -10,7 +10,7 @@ namespace HotelMiamiApp.Model
     public class Database
     {
         private SqlConnection connection = new SqlConnection(
-            "Data Source=510EC12\\MMSQLSERVER;Initial Catalog=Hotel_Miami_db;Integrated Security=True"
+            "Data Source=509EC7;Initial Catalog=Hotel_Miami_db;Integrated Security=True"
             );
 
         public void OpenConnection()
